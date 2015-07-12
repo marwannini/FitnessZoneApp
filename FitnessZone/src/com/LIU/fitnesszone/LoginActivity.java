@@ -28,6 +28,7 @@ public class LoginActivity extends Activity {
             "foo@example.com:hello",
             "bar@example.com:world"
              //Test
+            //test ahmad
     };
 
     /**
