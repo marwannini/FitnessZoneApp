@@ -27,6 +27,7 @@ public class LoginActivity extends Activity {
     private static final String[] DUMMY_CREDENTIALS = new String[]{
             "foo@example.com:hello",
             "bar@example.com:world"
+             //Test
     };
 
     /**
