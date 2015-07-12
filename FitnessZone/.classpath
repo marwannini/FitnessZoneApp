@@ -4,5 +4,10 @@
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ninisakaka/Desktop/Parse-1.9.3/bolts-android-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ninisakaka/Desktop/Parse-1.9.3/Parse-1.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ninisakaka/Desktop/Parse-1.9.3/ParseCrashReporting-1.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ninisakaka/Desktop/Parse-1.9.3/ParseFacebookUtilsV3-1.9.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ninisakaka/Desktop/Parse-1.9.3/ParseFacebookUtilsV4-1.9.3.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
