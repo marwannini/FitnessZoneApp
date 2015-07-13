@@ -1,5 +1,6 @@
 package com.LIU.fitnesszone;
 
+import Models.User;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -14,6 +15,8 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.TextView;
+import com.parse.Parse;
+import com.parse.ParseUser;
 
 /**
  * Activity which displays a login screen to the user, offering registration as
@@ -27,8 +30,7 @@ public class LoginActivity extends Activity {
     private static final String[] DUMMY_CREDENTIALS = new String[]{
             "foo@example.com:hello",
             "bar@example.com:world"
-             //Test
-            //test ahmad
+           // hiiii
     };
 
     /**
