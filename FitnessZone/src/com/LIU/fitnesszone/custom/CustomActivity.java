@@ -1,12 +1,12 @@
-package com.chatt.demo.custom;
+package com.LIU.fitnesszone.custom;
 
 import android.app.ActionBar;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.chatt.demo.R;
-import com.chatt.demo.utils.TouchEffect;
+
+import com.LIU.fitnesszone.utils.TouchEffect;
 
 /**
  * This is a common activity that all other activities of the app can extend to
@@ -46,11 +46,7 @@ public class CustomActivity extends FragmentActivity implements OnClickListener
 		actionBar.setDisplayShowTitleEnabled(true);
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
 		actionBar.setDisplayUseLogoEnabled(true);
-		actionBar.setLogo(R.drawable.icon);
-		actionBar.setBackgroundDrawable(getResources().getDrawable(
-				R.drawable.actionbar_bg));
-		actionBar.setDisplayHomeAsUpEnabled(true);
-		actionBar.setHomeButtonEnabled(true);
+		
 	}
 
 	/**

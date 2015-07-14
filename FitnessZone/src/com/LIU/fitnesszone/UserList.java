@@ -14,29 +14,23 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.chatt.demo.custom.CustomActivity;
-import com.chatt.demo.utils.Const;
-import com.chatt.demo.utils.Utils;
+import com.LIU.fitnesszone.custom.CustomActivity;
+import com.LIU.fitnesszone.utils.Const;
+import com.LIU.fitnesszone.utils.Utils;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
-/**
- * The Class UserList is the Activity class. It shows a list of all users of
- * this app. It also shows the Offline/Online status of users.
- */
+
 public class UserList extends CustomActivity
 {
 
-	/** The Chat list. */
 	private ArrayList<ParseUser> uList;
 
-	/** The user. */
+
 	public static ParseUser user;
 
-	/* (non-Javadoc)
-	 * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
-	 */
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
@@ -48,9 +42,7 @@ public class UserList extends CustomActivity
 		updateUserStatus(true);
 	}
 
-	/* (non-Javadoc)
-	 * @see android.support.v4.app.FragmentActivity#onDestroy()
-	 */
+	
 	@Override
 	protected void onDestroy()
 	{
@@ -58,9 +50,7 @@ public class UserList extends CustomActivity
 		updateUserStatus(false);
 	}
 
-	/* (non-Javadoc)
-	 * @see android.support.v4.app.FragmentActivity#onResume()
-	 */
+	
 	@Override
 	protected void onResume()
 	{
@@ -69,21 +59,13 @@ public class UserList extends CustomActivity
 
 	}
 
-	/**
-	 * Update user status.
-	 * 
-	 * @param online
-	 *            true if user is online
-	 */
 	private void updateUserStatus(boolean online)
 	{
 		user.put("online", online);
 		user.saveEventually();
 	}
 
-	/**
-	 * Load list of users.
-	 */
+	
 	private void loadUserList()
 	{
 		final ProgressDialog dia = ProgressDialog.show(this, null,

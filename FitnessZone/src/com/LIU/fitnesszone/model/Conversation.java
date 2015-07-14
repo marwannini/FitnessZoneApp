@@ -1,8 +1,8 @@
-package com.chatt.demo.model;
+package com.LIU.fitnesszone.model;
 
 import java.util.Date;
 
-import com.chatt.demo.UserList;
+import com.LIU.fitnesszone.UserList;
 
 /**
  * The Class Conversation is a Java Bean class that represents a single chat
