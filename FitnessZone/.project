@@ -30,4 +30,16 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>res/drawable-xhdpi/blue_btn.png</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/blue_btn.png</locationURI>
+		</link>
+		<link>
+			<name>res/drawable-xhdpi/logo_login.jpeg</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Desktop/logo_login.jpeg</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
